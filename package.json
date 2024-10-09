@@ -1,16 +1,31 @@
 {
-  "name": "api---customers",
+  "name": "parcial2",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "nodemon index"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndresMate/Parcial2.git"
+  },
+  "author": "Andres Felipe Mateus Riano",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndresMate/Parcial2/issues"
+  },
+  "homepage": "https://github.com/AndresMate/Parcial2#readme",
   "dependencies": {
-    "express": "^4.21.1"
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "node-fetch": "^3.3.2",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
   }
 }
